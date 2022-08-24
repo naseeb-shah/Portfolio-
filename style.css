@@ -880,4 +880,59 @@ footer .accounts div i {
     color: #376bda;
   }
 }
+
+
+
+
+.swap{
+  width: 60px;
+  /* position: absolute; */
+ margin-bottom: -340px;
+ transform: rotate(180deg);
+}
+.rigthswap{
+  width: 60px;
+  position: absolute;
+ margin-top:-240px;
+ right: 0;
+}
 /*# sourceMappingURL=style.css.map */
+
+
+
+#last{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+#last>div>div>*{
+  font-style: italic;
+  margin-top: 20px;
+  border-bottom: 1px solid white;
+  padding: 2px;
+}
+#last>div>div>h2>a{
+color: white;
+text-decoration: none;
+}
+#last>div> div>h2>i,#last>div> div>h2>a>i{
+  margin-right: 10px;
+  }
+
+  #last>div>div>* :hover{
+color: yellow;
+  }
+  #last>div>div>h2 :hover{
+    color: yellow;
+  
+  }
+  #dai{
+    display: flex;
+    height: min-content;
+    flex-wrap: wrap;
+    border: 2px solid white;
+
+  }
+  #dai>*{
+    margin: 20px;
+  }
