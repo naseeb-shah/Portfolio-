@@ -51,12 +51,12 @@ body {
   position: relative;
 }
 
-.s1 nav .navbar .navLeft .logo {
-  height: 50px;
-}
+
 .logo{
   border-radius: 50%;
   border:wheat 2px solid;
+height: 50;
+width: 50;
 }
 
 .s1 nav .navRight {
@@ -936,3 +936,6 @@ color: yellow;
   #dai>*{
     margin: 20px;
   }
+   #self{
+    border-radius: 50%;
+   }
