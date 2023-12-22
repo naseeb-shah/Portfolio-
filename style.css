@@ -21,7 +21,7 @@ body {
 }
 
 .s1 .nav1 {
-  position: relative;
+  
 /*   height: 80px; */
   width: 100%;
   z-index: 111;
@@ -29,6 +29,7 @@ body {
   -webkit-backdrop-filter: blur(4px);
           backdrop-filter: blur(4px);
   background: #e1e1e1;
+  position: fixed;
 }
 
 .s1 nav .navbar {
